@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>ds3e</title>
+      <meta charset='UTF-8'>
+    <link rel='icon' href='favicon.ico'>
+  </head>
+  <body>
+
+    <h1>Dynasite 3d &ndash; </h1>
+    <input id='randomText' type="text" name="randomText" value=""> <!-- Input instead of form -->
+    <button type="button" id='addRandomText'>Send</button> <!-- Possible event button -->
+    <!-- <form action="put.php" method="post">
+      Enter Message:
+      <br><input type="text" name="message"><br>
+      <button type="button" id ="enter">Enter</button>
+    </form> -->
+
+   <div id=grabphp>Content from jots.txt goes here</div>
+
+    <button type="button" id =button>Display</button>
+  <div id=grabphpdiv></div>
+  <script src='lib/ajaxget.js'> </script>
+
+    <!-- Script at the bottom make sure DOM is ready -->
+    <script src='lib/ajaxput.js'> </script>
+    <script src='ds3e.js'> </script>
+  </body>
+</html>
